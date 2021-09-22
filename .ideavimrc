@@ -1,0 +1,11 @@
+source ~/.vimrc
+set surround
+set multiple-cursors
+set clipboard+=ideaput
+set ideajoin
+
+nnoremap <Leader>f :action ShowNavBar<C>
+nnoremap <Leader>s :action FileStructurePopup<CR>
+nnoremap <Leader>v :action Vcs.QuickListPopupAction<CR>
+nnoremap <Leader>b :action Vcs.ShowBranches<CR>
+nnoremap <Leader>z :action ToggleZenMode<CR>
